@@ -1,0 +1,14 @@
+app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    type: annotation
+users_rest:
+    type: rest
+    prefix: /api
+    resource: AppBundle\Controller\UserRestController
+articles_rest:
+    type: rest
+    prefix: /api
+    resource: AppBundle\Controller\ArticleRestController
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

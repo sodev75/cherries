@@ -1,0 +1,14 @@
+.navbar-inverse {
+  background-image: none! important;
+  background: #337ab7 !important;
+  border: none !important;
+}
+.navbar-brand {
+    padding: 15px !important;
+  }
+  .logo{
+    height: 42px;
+  }
+  .navbar-nav>li>a {
+      color: #f5efef !important;
+  }
